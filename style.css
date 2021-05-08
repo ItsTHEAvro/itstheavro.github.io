@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html,
+body {
+    min-height: 100vh;
+    background: linear-gradient(156deg, rgba(64, 105, 225, 1) 0%, rgba(128, 0, 128, 1) 100%);
+}
+
+main {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbox {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #111;
+    cursor: pointer;
+}
+
+.avatar {
+    height: 150px;
+    margin: auto;
+}
+
+.heading {
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Ruthie', cursive;
+    cursor: pointer;
+}
+
+.desc {
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.project-container {
+    max-width: 700px;
+    padding: 10px;
+    text-align: center;
+}
+
+.project-container:hover {
+    border: none;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    background: linear-gradient(249deg, rgba(64, 105, 225, 1) 0%, rgba(128, 0, 128, 1) 100%);
+    cursor: pointer;
+}
+
+.project-container:hover h3 {
+    text-decoration: underline;
+    color: rgb(240, 240, 240);
+    ;
+}
+
+.project-container:hover p {
+    color: rgb(230, 230, 230);
+}
+
+.project-link {
+    text-decoration: none;
+    color: black;
+}
+
+.project-title {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.project-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
